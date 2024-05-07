@@ -1,0 +1,54 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/026/704/472/small_2x/islamic-eid-al-adha-card-with-goat-on-night-background-eid-al-adha-banner-generative-ai-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+}
+*{
+    color: white;
+   
+}
+
+
+#mainContainer{
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+
+#boxContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    border: 2px solid white;
+    max-width: 250px;
+    max-height: 250px;
+    width: 280px;
+    margin: 12px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 12px  white;
+    font-style: italic;
+    
+}
+
+.box:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.6s;
+    box-shadow: 2px 2px 12px black;
+
+}
